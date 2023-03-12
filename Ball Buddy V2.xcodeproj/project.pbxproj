@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7917F429BD593C00B4F96C /* Ball_Buddy_V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7917F329BD593C00B4F96C /* Ball_Buddy_V2App.swift */; };
+		AA7917F629BD593C00B4F96C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7917F529BD593C00B4F96C /* ContentView.swift */; };
+		AA7917F829BD593D00B4F96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7917F729BD593D00B4F96C /* Assets.xcassets */; };
+		AA7917FB29BD593D00B4F96C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7917FA29BD593D00B4F96C /* Preview Assets.xcassets */; };
+		AA79180529BD593D00B4F96C /* Ball_Buddy_V2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79180429BD593D00B4F96C /* Ball_Buddy_V2Tests.swift */; };
+		AA79180F29BD593D00B4F96C /* Ball_Buddy_V2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79180E29BD593D00B4F96C /* Ball_Buddy_V2UITests.swift */; };
+		AA79181129BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79181029BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift */; };
+		AA79181E29BEC51B00B4F96C /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79181D29BEC51A00B4F96C /* CustomARView.swift */; };
+		AA79182029BECC1F00B4F96C /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79181F29BECC1F00B4F96C /* CustomARViewRepresentable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA79180129BD593D00B4F96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7917E829BD593B00B4F96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7917EF29BD593C00B4F96C;
+			remoteInfo = "Ball Buddy V2";
+		};
+		AA79180B29BD593D00B4F96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7917E829BD593B00B4F96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7917EF29BD593C00B4F96C;
+			remoteInfo = "Ball Buddy V2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7917F029BD593C00B4F96C /* Ball Buddy V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ball Buddy V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7917F329BD593C00B4F96C /* Ball_Buddy_V2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_Buddy_V2App.swift; sourceTree = "<group>"; };
+		AA7917F529BD593C00B4F96C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA7917F729BD593D00B4F96C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7917FA29BD593D00B4F96C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA79180029BD593D00B4F96C /* Ball Buddy V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ball Buddy V2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA79180429BD593D00B4F96C /* Ball_Buddy_V2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_Buddy_V2Tests.swift; sourceTree = "<group>"; };
+		AA79180A29BD593D00B4F96C /* Ball Buddy V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ball Buddy V2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA79180E29BD593D00B4F96C /* Ball_Buddy_V2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_Buddy_V2UITests.swift; sourceTree = "<group>"; };
+		AA79181029BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_Buddy_V2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA79181D29BEC51A00B4F96C /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		AA79181F29BECC1F00B4F96C /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		AA79182129BECD8200B4F96C /* Ball-Buddy-V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ball-Buddy-V2-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7917ED29BD593C00B4F96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7917FD29BD593D00B4F96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA79180729BD593D00B4F96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7917E729BD593B00B4F96C = {
+			isa = PBXGroup;
+			children = (
+				AA7917F229BD593C00B4F96C /* Ball Buddy V2 */,
+				AA79180329BD593D00B4F96C /* Ball Buddy V2Tests */,
+				AA79180D29BD593D00B4F96C /* Ball Buddy V2UITests */,
+				AA7917F129BD593C00B4F96C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7917F129BD593C00B4F96C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7917F029BD593C00B4F96C /* Ball Buddy V2.app */,
+				AA79180029BD593D00B4F96C /* Ball Buddy V2Tests.xctest */,
+				AA79180A29BD593D00B4F96C /* Ball Buddy V2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7917F229BD593C00B4F96C /* Ball Buddy V2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA79182129BECD8200B4F96C /* Ball-Buddy-V2-Info.plist */,
+				AA7917F329BD593C00B4F96C /* Ball_Buddy_V2App.swift */,
+				AA7917F529BD593C00B4F96C /* ContentView.swift */,
+				AA7917F729BD593D00B4F96C /* Assets.xcassets */,
+				AA7917F929BD593D00B4F96C /* Preview Content */,
+				AA79181D29BEC51A00B4F96C /* CustomARView.swift */,
+				AA79181F29BECC1F00B4F96C /* CustomARViewRepresentable.swift */,
+			);
+			path = "Ball Buddy V2";
+			sourceTree = "<group>";
+		};
+		AA7917F929BD593D00B4F96C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA7917FA29BD593D00B4F96C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA79180329BD593D00B4F96C /* Ball Buddy V2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA79180429BD593D00B4F96C /* Ball_Buddy_V2Tests.swift */,
+			);
+			path = "Ball Buddy V2Tests";
+			sourceTree = "<group>";
+		};
+		AA79180D29BD593D00B4F96C /* Ball Buddy V2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA79180E29BD593D00B4F96C /* Ball_Buddy_V2UITests.swift */,
+				AA79181029BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift */,
+			);
+			path = "Ball Buddy V2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7917EF29BD593C00B4F96C /* Ball Buddy V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA79181429BD593D00B4F96C /* Build configuration list for PBXNativeTarget "Ball Buddy V2" */;
+			buildPhases = (
+				AA7917EC29BD593C00B4F96C /* Sources */,
+				AA7917ED29BD593C00B4F96C /* Frameworks */,
+				AA7917EE29BD593C00B4F96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ball Buddy V2";
+			productName = "Ball Buddy V2";
+			productReference = AA7917F029BD593C00B4F96C /* Ball Buddy V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7917FF29BD593D00B4F96C /* Ball Buddy V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA79181729BD593D00B4F96C /* Build configuration list for PBXNativeTarget "Ball Buddy V2Tests" */;
+			buildPhases = (
+				AA7917FC29BD593D00B4F96C /* Sources */,
+				AA7917FD29BD593D00B4F96C /* Frameworks */,
+				AA7917FE29BD593D00B4F96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA79180229BD593D00B4F96C /* PBXTargetDependency */,
+			);
+			name = "Ball Buddy V2Tests";
+			productName = "Ball Buddy V2Tests";
+			productReference = AA79180029BD593D00B4F96C /* Ball Buddy V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA79180929BD593D00B4F96C /* Ball Buddy V2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA79181A29BD593D00B4F96C /* Build configuration list for PBXNativeTarget "Ball Buddy V2UITests" */;
+			buildPhases = (
+				AA79180629BD593D00B4F96C /* Sources */,
+				AA79180729BD593D00B4F96C /* Frameworks */,
+				AA79180829BD593D00B4F96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA79180C29BD593D00B4F96C /* PBXTargetDependency */,
+			);
+			name = "Ball Buddy V2UITests";
+			productName = "Ball Buddy V2UITests";
+			productReference = AA79180A29BD593D00B4F96C /* Ball Buddy V2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7917E829BD593B00B4F96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AA7917EF29BD593C00B4F96C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AA7917FF29BD593D00B4F96C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AA7917EF29BD593C00B4F96C;
+					};
+					AA79180929BD593D00B4F96C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AA7917EF29BD593C00B4F96C;
+					};
+				};
+			};
+			buildConfigurationList = AA7917EB29BD593B00B4F96C /* Build configuration list for PBXProject "Ball Buddy V2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7917E729BD593B00B4F96C;
+			productRefGroup = AA7917F129BD593C00B4F96C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7917EF29BD593C00B4F96C /* Ball Buddy V2 */,
+				AA7917FF29BD593D00B4F96C /* Ball Buddy V2Tests */,
+				AA79180929BD593D00B4F96C /* Ball Buddy V2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7917EE29BD593C00B4F96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7917FB29BD593D00B4F96C /* Preview Assets.xcassets in Resources */,
+				AA7917F829BD593D00B4F96C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7917FE29BD593D00B4F96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA79180829BD593D00B4F96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7917EC29BD593C00B4F96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7917F629BD593C00B4F96C /* ContentView.swift in Sources */,
+				AA79181E29BEC51B00B4F96C /* CustomARView.swift in Sources */,
+				AA7917F429BD593C00B4F96C /* Ball_Buddy_V2App.swift in Sources */,
+				AA79182029BECC1F00B4F96C /* CustomARViewRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7917FC29BD593D00B4F96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA79180529BD593D00B4F96C /* Ball_Buddy_V2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA79180629BD593D00B4F96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA79181129BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift in Sources */,
+				AA79180F29BD593D00B4F96C /* Ball_Buddy_V2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA79180229BD593D00B4F96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7917EF29BD593C00B4F96C /* Ball Buddy V2 */;
+			targetProxy = AA79180129BD593D00B4F96C /* PBXContainerItemProxy */;
+		};
+		AA79180C29BD593D00B4F96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7917EF29BD593C00B4F96C /* Ball Buddy V2 */;
+			targetProxy = AA79180B29BD593D00B4F96C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA79181229BD593D00B4F96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA79181329BD593D00B4F96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA79181529BD593D00B4F96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ball Buddy V2/Preview Content\"";
+				DEVELOPMENT_TEAM = DW3MPD5KTZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ball-Buddy-V2-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to get camera access.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Required to save photos to camera roll.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin.Ball-Buddy-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA79181629BD593D00B4F96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ball Buddy V2/Preview Content\"";
+				DEVELOPMENT_TEAM = DW3MPD5KTZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ball-Buddy-V2-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to get camera access.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Required to save photos to camera roll.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin.Ball-Buddy-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA79181829BD593D00B4F96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW3MPD5KTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin.Ball-Buddy-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ball Buddy V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ball Buddy V2";
+			};
+			name = Debug;
+		};
+		AA79181929BD593D00B4F96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW3MPD5KTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin.Ball-Buddy-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ball Buddy V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ball Buddy V2";
+			};
+			name = Release;
+		};
+		AA79181B29BD593D00B4F96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW3MPD5KTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin.Ball-Buddy-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ball Buddy V2";
+			};
+			name = Debug;
+		};
+		AA79181C29BD593D00B4F96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW3MPD5KTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Benjamin.Ball-Buddy-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ball Buddy V2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7917EB29BD593B00B4F96C /* Build configuration list for PBXProject "Ball Buddy V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA79181229BD593D00B4F96C /* Debug */,
+				AA79181329BD593D00B4F96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA79181429BD593D00B4F96C /* Build configuration list for PBXNativeTarget "Ball Buddy V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA79181529BD593D00B4F96C /* Debug */,
+				AA79181629BD593D00B4F96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA79181729BD593D00B4F96C /* Build configuration list for PBXNativeTarget "Ball Buddy V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA79181829BD593D00B4F96C /* Debug */,
+				AA79181929BD593D00B4F96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA79181A29BD593D00B4F96C /* Build configuration list for PBXNativeTarget "Ball Buddy V2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA79181B29BD593D00B4F96C /* Debug */,
+				AA79181C29BD593D00B4F96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7917E829BD593B00B4F96C /* Project object */;
+}
