@@ -24,7 +24,7 @@ struct ContentView: View {
           
           } label: {
               Image(systemName: "camera")
-                  .foregroundColor(Color.black)
+                  .foregroundColor(Color.gray)
               .frame(width:60, height:60)
               .font(.title)
               .background(.white.opacity(0.75))
