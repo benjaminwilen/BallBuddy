@@ -16,6 +16,7 @@
 		AA79181129BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79181029BD593D00B4F96C /* Ball_Buddy_V2UITestsLaunchTests.swift */; };
 		AA79181E29BEC51B00B4F96C /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79181D29BEC51A00B4F96C /* CustomARView.swift */; };
 		AA79182029BECC1F00B4F96C /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79181F29BECC1F00B4F96C /* CustomARViewRepresentable.swift */; };
+		AAB6FDDC29C0F35E009DF011 /* ARReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6FDDB29C0F35E009DF011 /* ARReceiver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AA79181D29BEC51A00B4F96C /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		AA79181F29BECC1F00B4F96C /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
 		AA79182129BECD8200B4F96C /* Ball-Buddy-V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ball-Buddy-V2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AAB6FDDB29C0F35E009DF011 /* ARReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARReceiver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AA7917F929BD593D00B4F96C /* Preview Content */,
 				AA79181D29BEC51A00B4F96C /* CustomARView.swift */,
 				AA79181F29BECC1F00B4F96C /* CustomARViewRepresentable.swift */,
+				AAB6FDDB29C0F35E009DF011 /* ARReceiver.swift */,
 			);
 			path = "Ball Buddy V2";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB6FDDC29C0F35E009DF011 /* ARReceiver.swift in Sources */,
 				AA7917F629BD593C00B4F96C /* ContentView.swift in Sources */,
 				AA79181E29BEC51B00B4F96C /* CustomARView.swift in Sources */,
 				AA7917F429BD593C00B4F96C /* Ball_Buddy_V2App.swift in Sources */,
